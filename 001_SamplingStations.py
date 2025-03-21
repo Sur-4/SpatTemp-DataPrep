@@ -85,7 +85,7 @@ for iteration in range(1, num_iterations + 1):
         crs="EPSG:4326"
     )
 
-    # Save output in CSV format
+    # Save output
     year = 2019 + iteration - 1
     output_csv = os.path.join(output_folder, f"NE_sampling_{year}.csv")
     gdf.to_csv(output_csv, index=False)

@@ -36,7 +36,6 @@ os.makedirs(pep725_data_folder, exist_ok=True)
 
 project_name_on_gee = os.getenv('GEE_PROJECT_NAME')
 
-# Data folder name
 export_folder_name = f'illinois_eo_data'
 
 # The path to Google Drives folder
